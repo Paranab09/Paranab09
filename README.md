@@ -1,148 +1,150 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Paranab%20Sharma&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Software%20Engineer&descAlignY=58"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Paranab%20Sharma&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20|%20Backend%20&%20Distributed%20Systems&descAlignY=58"/>
 </p>
 
 <h3 align="center">
-Building scalable web applications, backend systems and AI-powered solutions
+Building scalable software, backend systems, and production-grade SaaS applications.
 </h3>
-
-<p align="center">
-📍 Jammu, India
-</p>
-
-<p align="center">
-
-<a href="https://github.com/Paranab09">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/paranab-sharma-b9a443260">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:paranab299@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</p>
 
 ---
 
 # 👋 About Me
 
-I'm a **Full Stack Software Engineer** focused on building scalable, secure, and production-ready applications.
+I'm a Software Engineer passionate about designing reliable backend systems and modern web applications.
 
-I work across the complete software development lifecycle — designing APIs, building modern frontend experiences, architecting databases, integrating AI services, and deploying applications to the cloud.
+I enjoy solving engineering problems around:
 
-My interests include:
-
-- Full Stack Development
+- Multi-tenant SaaS
 - Backend Architecture
+- Authentication & Authorization
+- Real-time Collaboration
+- Distributed Systems
+- Performance Optimization
+- Cloud Deployment
+
+I believe software should be designed for maintainability, scalability, and security—not just functionality.
+
+---
+
+# 🚀 Currently Building
+
+## Syncora
+
+A production-grade multi-tenant collaboration platform inspired by Notion, Slack, Google Docs, and Linear.
+
+Current engineering focus:
+
+- Multi-tenant SaaS architecture
+- NestJS modular backend
+- JWT + Refresh Token Authentication
+- Redis Pub/Sub
+- Yjs collaborative editing
+- WebSockets
+- BullMQ workers
+- Elasticsearch
+- PostgreSQL schema optimization
+- Docker & CI/CD
+- Observability with Sentry & Prometheus
+
+---
+
+## RBeyond Renovation
+
+A production-ready renovation management platform focused on workflow automation, project management, secure client communication, and scalable backend services.
+
+---
+
+# ⚙️ Engineering Interests
+
+- Backend Engineering
+- Software Architecture
+- Distributed Systems
 - Real-Time Applications
+- Event-Driven Systems
+- API Design
+- Database Design
 - Cloud Infrastructure
-- AI-powered Applications
+- System Design
+- Developer Experience
 
 ---
 
 # 🛠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs,nodejs,express,fastapi,django,postgres,mongodb,mysql,docker,aws,git,github,linux,tailwind,redux"/>
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,nestjs,express,fastapi,django,postgres,mongodb,redis,docker,aws,git,linux"/>
+
 </p>
 
 ### Languages
 
-Python • JavaScript • TypeScript • SQL
+TypeScript • JavaScript • Python • SQL
 
 ### Frontend
 
-React.js • Next.js • HTML5 • CSS3 • Tailwind CSS • Redux Toolkit
+React • Next.js • TailwindCSS • Zustand • TanStack Query
 
 ### Backend
 
-Node.js • Express.js • FastAPI • Django • Django REST Framework • REST APIs • JWT • OAuth • Socket.IO
+NestJS • Node.js • FastAPI • Django • Express
 
 ### Databases
 
-PostgreSQL • MongoDB • MySQL • SQLite
+PostgreSQL • MongoDB • Redis
 
-### Cloud & DevOps
+### DevOps
 
-Docker • Docker Compose • AWS • GitHub Actions • Linux • CI/CD • Kubernetes Basics
-
-### AI & Tools
-
-OpenAI API • Gemini API • Claude API • Git • GitHub • Postman • VS Code • GitHub Copilot
+Docker • GitHub Actions • AWS • Linux
 
 ---
 
-# 🚀 Featured Projects
+# ⭐ Featured Projects
 
+## Syncora
 
-## 🔹 Syncora — Multi-Tenant Team Collaboration Platform
+Production-grade collaboration platform built with enterprise software engineering principles.
 
-**React • Node.js • Express.js • PostgreSQL • MongoDB • Redis • Socket.IO • Docker**
+**Highlights**
 
-A Notion + Slack inspired collaboration platform that enables organizations to manage documents, communication, and team workflows through secure isolated workspaces.
-
-### Key Engineering Work
-
-- Designed a **multi-tenant architecture** ensuring complete data isolation between organizations.
-- Implemented secure authentication using **JWT access tokens and refresh-token rotation** with HTTP-only cookies.
-- Built **Role-Based Access Control (Owner/Admin/Member)** for permission management.
-- Developed real-time messaging and collaboration features using **Socket.IO rooms**.
-- Integrated **Redis Pub/Sub** for scalable real-time event distribution.
-- Containerized services using Docker for reliable deployments.
-
----
-
-## 🔹 RailSathi — Railway Complaint Management System
-
-**FastAPI • PostgreSQL • React • Uvicorn**
-
-A railway complaint management platform allowing passengers to submit complaints, track resolution progress, and enabling staff to manage issues efficiently.
-
-### Key Engineering Work
-
-- Built REST APIs using **FastAPI** with Pydantic validation.
-- Designed PostgreSQL database models for users, complaints, and complaint history.
-- Implemented authorization rules based on user roles.
-- Added complaint tracking and media attachment support.
-- Created a scalable backend structure following clean API practices.
+- Multi-tenant SaaS architecture
+- Secure JWT authentication
+- Refresh-token rotation
+- Role-Based Access Control
+- Redis Pub/Sub
+- Real-time collaboration
+- BullMQ background jobs
+- Elasticsearch
+- Dockerized infrastructure
+- CI/CD
+- Monitoring & Logging
 
 ---
 
-## 🔹 Deep Fake Detection System
+## RailSathi
 
-**Python • CNN • RNN • Machine Learning**
-
-A deep learning project focused on detecting manipulated images and videos by analyzing facial features, visual inconsistencies, and temporal patterns.
-
-### Key Engineering Work
-
-- Combined **CNN feature extraction** with **RNN temporal analysis**.
-- Processed facial movements, lighting differences, and pixel-level anomalies.
-- Trained and evaluated models using real and synthetic media datasets.
-- Explored AI approaches for detecting evolving deepfake generation techniques.
+Railway complaint management platform built using FastAPI and PostgreSQL with role-based authorization and scalable REST APIs.
 
 ---
 
-# 💼 Experience
+## Deep Fake Detection
 
-## Full Stack Developer — Baseline IT Development
-
-- Developed production applications .
-- Built appointment booking platforms with third-party API integrations.
-- Developed role-based dashboards and AI-powered features.
-- Worked with AWS and Azure cloud deployments.
+Machine Learning pipeline combining CNN and RNN architectures for deepfake image and video detection.
 
 ---
 
-## Full Stack Developer Intern — Root.ai
+# 🏗 Engineering Philosophy
 
-- Developed dynamic web applications using React and Node.js.
-- Built and optimized REST APIs.
-- Improved application performance and followed software engineering practices.
+I enjoy building software that is:
+
+- Modular
+- Secure
+- Observable
+- Scalable
+- Maintainable
+- Well Documented
+
+I prefer understanding *why* systems are designed a certain way rather than simply learning frameworks.
 
 ---
 
@@ -156,7 +158,6 @@ A deep learning project focused on detecting manipulated images and videos by an
 
 </p>
 
-
 <p align="center">
 
 <img src="https://streak-stats.demolab.com?user=Paranab09&theme=tokyonight&hide_border=true"/>
@@ -165,21 +166,28 @@ A deep learning project focused on detecting manipulated images and videos by an
 
 ---
 
-# 📫 Let's Connect
+# 📫 Connect
 
 <p align="center">
 
+<a href="https://github.com/Paranab09">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
 <a href="https://www.linkedin.com/in/paranab-sharma-b9a443260">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
 </a>
 
 <a href="mailto:paranab299@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"/>
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail"/>
 </a>
 
 </p>
 
+---
 
 <p align="center">
-⭐ Thanks for visiting my profile!
+
+*"First solve the problem. Then engineer the solution."*
+
 </p>
