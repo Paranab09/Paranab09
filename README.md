@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-Building scalable web applications, backend systems and AI-powered solutions
+Building scalable software systems, backend architectures, and production-ready applications
 </h3>
 
 <p align="center">
